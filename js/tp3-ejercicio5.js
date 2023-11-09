@@ -9,12 +9,16 @@ function verificarString(texto) {
   if (texto === "" || !isNaN(texto)) {
     alert(`Ingresa un texto válido`);
   } else if (texto === textoMayuscula) {
-    document.write(`El texto ingresado "${texto}" esta escrito en mayuscula.`);
+    document.write(
+      `<h2> El texto ingresado "${texto}" esta escrito en mayuscula. </h2>`
+    );
   } else if (texto === textoMinuscula) {
-    document.write(`El texto ingresado "${texto}" esta escrito en minuscula.`);
+    document.write(
+      `<h2> El texto ingresado "${texto}" esta escrito en minuscula.</h2>`
+    );
   } else {
     document.write(
-      `Su texto "${texto}" esta escrito tanto en mayusculas como en minusculas.`
+      `<h2>Su texto "${texto}" esta escrito tanto en mayusculas como en minusculas.</h2>`
     );
   }
 }
