@@ -18,7 +18,9 @@ for (let i = 1; i <= 50; i++) {
 }
 console.log(`El resultado es: ${suma}`);
 let vecesTirado = 0
-//mostrar con una tabla y armar el array para cada posible valor con filter
+
+
+//mostrar con una tabla y armar los array para cada posible valor con filter del primer array
 document.write(`<table>`);
 document.write(`<thead>`);
 document.write(`<trow>`);
